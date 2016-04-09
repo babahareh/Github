@@ -23,7 +23,7 @@ Resected_channel = {[ 1:6, 9:12, 17:20, 25:27, 79:86], [ 61:66, 76:81, 83, 91:98
 
 %% Run PLV function
 featmat = [];
-for i =  7%:numel(flist)
+for i =  1:numel(flist)
 %fname = flist(i);
 [PLV, plv_time] = PLV_function(flist{i});
 PLV_mat{i}= PLV;
